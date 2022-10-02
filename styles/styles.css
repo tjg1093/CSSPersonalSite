@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    color: #002B5B;
+}
+
+h1{
+    padding-top: 50px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 4rem;
+    
+}
+
+h2,h3{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2rem;
+    font-weight: lighter;
+    
+}
+
+h3{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+p{
+    font-family: 'Space Mono', monospace;
+    line-height: 2;
+    font-size: 2;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-width: 10px;
+    width: 10%;
+    margin: 50px auto;
+    color: #406882;
+}
+
+a{
+    font-family: 'Space Mono', monospace;
+}
+
+
+/*Top section*/
+
+.top-container{
+    padding-top: 80px;
+    text-align: center;
+    background-color: #C4DDFF;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.right-cloud{
+    position: absolute;
+    right: 350px;
+}
+
+.left-cloud{
+    position: absolute;
+    left: 200px;
+}
+
+.mountain{
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+
+/*middle section*/
+.middle-container{
+    padding: 100px 0;
+    text-align: center;
+    background-color: #b1d3ee;
+}
+
+
+
+.pp{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.profile{
+    margin: auto;
+    width: 30%;
+}
+
+.skill-row{
+    margin: 80px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.gaming-img{
+    width: 30%;
+    float: left;
+    margin-right: 50px;
+}
+
+.sport-img{
+    width: 30%;
+    float: right;
+    margin-left: 50px;
+}
+
+.code-img{
+    width: 28%;
+    float: left;
+    margin-right: 50px;
+}
+
+.contact-message{
+    width: 25%;
+    margin: auto auto 50px auto;
+}
+
+
+.btn {
+    background: #002B5B;
+    background-image: -webkit-linear-gradient(top, #002B5B, #06283D);
+    background-image: -moz-linear-gradient(top, #002B5B, #06283D);
+    background-image: -ms-linear-gradient(top, #002B5B, #06283D);
+    background-image: -o-linear-gradient(top, #002B5B, #06283D);
+    background-image: -webkit-gradient(to bottom, #002B5B, #06283D);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #D9E4DD;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 4px 0 #000000;
+    -moz-box-shadow: 1px 1px 4px 0 #000000;
+    box-shadow: 1px 1px 4px 0 #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #06283D 1px;
+    background: #06283D;
+    background-image: -webkit-linear-gradient(top, #06283D, #C4DDFF);
+    background-image: -moz-linear-gradient(top, #06283D, #C4DDFF);
+    background-image: -ms-linear-gradient(top, #06283D, #C4DDFF);
+    background-image: -o-linear-gradient(top, #06283D, #C4DDFF);
+    background-image: -webkit-gradient(to bottom, #06283D, #C4DDFF);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+/*bottom section*/
+
+.bottom-container{
+    background-color: #06283D;
+    text-align: center;
+    padding: 50px; 
+}
+
+.footer-link{
+    margin: 0 20px 0 20px;
+    color: #CDC9C3;
+    text-decoration: none;
+    width: 50%;
+    
+}
+
+.footer-link:hover{
+    color: #FBF7F0
+}
+
+.credit{
+    margin-top: 50px;
+    color: #CDC9C3;
+    font-size: 10px;
+}
+
+.fa-brands{
+        font-size: 30px;
+}
+
+.GIT{
+    margin: auto;
+    font-size: 45px;
+}
+
+.q{
+    margin: auto auto 30px auto;
+    font-size: 25px;
+} 
+
+.details {
+  color: #fff;
+  padding: 10px;
+}
+
+.summary{
+    list-style: none;
+    cursor: pointer;
+    color: #b1d3ee;
+    transition: color .25s;
+}
+
+.summary:hover{
+    color:#b1d3ee;
+}
+.creditss{
+    padding-left:15px;
+    color: #b1d3ee;
+    font-size: 10px;
+}
+
+.credits{
+    color: #fff;
+}
